@@ -1,4 +1,4 @@
-package sample;
+package sample.shape;
 
 import javafx.application.Application;
 import javafx.collections.ObservableList;
@@ -21,7 +21,7 @@ public class TextDisplaySample extends Application {
 	}
 	
 	@Override
-	public void start(Stage primaryStage) throws Exception {
+	public void start(Stage primaryStage) {
 		Text text = new Text();
 		text.setFont(new Font(25));
 		text.setX(10);

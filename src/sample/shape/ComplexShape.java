@@ -1,4 +1,4 @@
-package sample;
+package sample.shape;
 
 import javafx.application.Application;
 import javafx.scene.Group;

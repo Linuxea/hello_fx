@@ -1,4 +1,4 @@
-package sample;
+package sample.threed;
 
 import javafx.application.Application;
 import javafx.collections.ObservableList;
@@ -20,7 +20,7 @@ public class RectanglySample extends Application {
 	}
 	
 	@Override
-	public void start(Stage primaryStage) throws Exception {
+	public void start(Stage primaryStage) {
 		
 		Rectangle rectangle = new Rectangle();
 		rectangle.setX(100);

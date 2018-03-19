@@ -1,4 +1,4 @@
-package sample;
+package sample.shape;
 
 import javafx.application.Application;
 import javafx.scene.Group;
@@ -19,7 +19,7 @@ public class EffectSample extends Application {
 	}
 	
 	@Override
-	public void start(Stage primaryStage) throws Exception {
+	public void start(Stage primaryStage) {
 		
 		//Creating an image
 		Image image = new Image("https://tse4.mm.bing.net/th?id=OIP.xVkeT_Eva3EshHhZwYkhFQHaEK&pid=Api");

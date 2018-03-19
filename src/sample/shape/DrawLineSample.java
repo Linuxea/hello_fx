@@ -1,4 +1,4 @@
-package sample;
+package sample.shape;
 
 import javafx.application.Application;
 import javafx.scene.Group;
@@ -17,7 +17,7 @@ public class DrawLineSample extends Application {
 	}
 	
 	@Override
-	public void start(Stage primaryStage) throws Exception {
+	public void start(Stage primaryStage) {
 		Line line = new Line();
 		line.setStartX(100);
 		line.setStartY(100);

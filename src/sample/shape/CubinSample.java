@@ -1,4 +1,4 @@
-package sample;
+package sample.shape;
 
 import javafx.application.Application;
 import javafx.collections.ObservableList;
@@ -20,7 +20,7 @@ public class CubinSample extends Application {
 	}
 	
 	@Override
-	public void start(Stage primaryStage) throws Exception {
+	public void start(Stage primaryStage) {
 		
 		CubicCurve cubicCurve = new CubicCurve();
 		cubicCurve.setControlX1(100);
